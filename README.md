@@ -1,2 +1,15 @@
-# tsgsys
-突合簡易システム
+{
+  "name": "totsugou-mock",
+  "version": "1.0.0",
+  "description": "払込取扱票 突合システム モックサーバー",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
